@@ -1,0 +1,62 @@
+.big-container{
+
+    height:100vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: inherit; */
+
+}
+.text{
+    background-color: white;
+    min-height:60%;
+    width:85%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: right;
+    border-radius: 20PX;
+}
+.twoIcons{
+    display:flex;   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buttonIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quoteAuthor p{
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.quoteAuthor h3{
+    text-align: center;
+}
+@keyframes shake{
+    0%{margin-left:0px; margin-right:0px;}
+    50%{margin-left:50px; margin-right:50px;}
+}
+.copy {
+    text-align: center;
+}
+.firstButton{
+    margin-right:5px;
+}
+.copyButton{
+    width:100px;
+    border: 0px;
+}
+.copyButton:active{
+    transform: scale(1.05);
+}
