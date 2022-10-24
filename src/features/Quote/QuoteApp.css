@@ -1,22 +1,18 @@
 .big-container{
-
     height:100vh;
     width:auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: inherit; */
-
 }
 .text{
     background-color: white;
     min-height:60%;
     width:85%;
-    display: flex;
-    flex-direction: column; 
+    display: grid;
     justify-content: center;
-    align-items: right;
+    align-items: end;
     border-radius: 20PX;
 }
 .twoIcons{
@@ -24,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: 3%;
 }
 .buttonIcon{
     display: flex;
@@ -31,6 +28,9 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+.getQuoteBut{
+    margin-right: 3%;
 }
 .quoteAuthor p{
     text-align: right;
@@ -55,7 +55,7 @@
 }
 .copyButton{
     width:100px;
-    border: 0px;
+    outline: none;
 }
 .copyButton:active{
     transform: scale(1.05);
